@@ -11,8 +11,4 @@ public class Score : MonoBehaviour {
 	void Start() {
 		scr.text = "Your Score: " + ((int)GameManager.survivedTime).ToString ();
 	}
-
-	public void test() {
-		GameManager.instance.
-	}
 }
