@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1352775336307794}
+  m_IsPrefabParent: 1
+--- !u!1 &1352775336307794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4492428050498550}
+  - component: {fileID: 114047351750879726}
+  m_Layer: 0
+  m_Name: Grid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4492428050498550
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1352775336307794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114047351750879726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1352775336307794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f6b8afc81db494694ce4cd24c79182, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 37
+  height: 21
+  tile: {fileID: 1545649126149954, guid: ebe314e89ba6799489ea4e7df5de2d33, type: 2}
+  grassLand: {fileID: 21300000, guid: edcbe4313f93f974d955c23e184d907a, type: 3}
+  hill: {fileID: 21300000, guid: 584f40dfe756f5446aba998a3e58e750, type: 3}
+  forest: {fileID: 21300000, guid: fafb50572082f9f43b6c822a12ed68e4, type: 3}
+  lake: {fileID: 21300000, guid: f3de14f1106f25d40909e96a761d5041, type: 3}
+  mountain: {fileID: 21300000, guid: c984966222df0c74cb2e40fdb27b910a, type: 3}
+  grassLandProb: 0.75
+  hillProb: 0
+  forestProb: 0
+  lakeProb: 0
+  mountainProb: 0.25
